@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Almacén</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #3f704d;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    nav {
+      display: flex;
+      gap: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #3f704d;
+    }
+    .oferta {
+      background-color: #e9f5e0;
+      border-left: 5px solid #3f704d;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Logo del almacén">
+  <nav>
+    <a href="#quienes">Quiénes somos</a>
+    <a href="#verduras">Nuestras verduras</a>
+    <a href="#ofertas">Ofertas</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section id="quienes">
+  <h2>Quiénes somos</h2>
+  <p>Somos un almacén comprometido con la alimentación consciente, productos locales y atención personalizada.</p>
+</section>
+
+<section id="verduras">
+  <h2>Nuestras verduras</h2>
+  <p>Trabajamos con productores locales para ofrecerte verduras frescas, agroecológicas y de estación.</p>
+</section>
+
+<section id="ofertas">
+  <h2>Ofertas de la semana</h2>
+  <div class="oferta"><strong>Lunes:</strong> 20% descuento en Quinoa y arroz</div>
+  <div class="oferta"><strong>Martes:</strong> 15% en productos seleccionados abonando con Mercado Pago</div>
+  <div class="oferta"><strong>Miércoles:</strong> 3x2 en vinos y espumantes</div>
+  <div class="oferta"><strong>Jueves:</strong> 10% descuento en cordero</div>
+  <div class="oferta"><strong>Viernes:</strong> 10% en carnes vacunas, abonando con Mercado Pago</div>
+  <div class="oferta"><strong>Sábados y Domingos:</strong> 15% descuento en productos seleccionados con cualquier medio de pago</div>
+</section>
+
+<section id="galeria">
+  <h2>Galería</h2>
+  <p>[Espacio reservado para fotos del almacén, productos, etc.]</p>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>📍 Dirección: [Agregar dirección]<br>
+     📞 Teléfono: [Agregar número]<br>
+     📧 Email: [Agregar email]</p>
+</section>
+
+</body>
+</html>
